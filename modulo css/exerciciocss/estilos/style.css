@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+main {
+    margin: auto;
+    width: 1366px;
+    border: 1px solid red;
+}
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+img {
+    height: 350px;
+    display: inline-block;
+}
