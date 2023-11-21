@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor-primaria: #182C61;
+    --cor-secundaria: #ecf0f1;
+    --fonte-primaria: 'Bungee', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif; 
+}
+body {
+    font-family: var(--fonte-secundaria);
+}
+
+header {
+    padding: 16px 0px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+header h1 {
+    font-family: var(--fonte-primaria);
+    font-weight: normal;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: var(--cor-secundaria);
+    font-size: 18px;
+
+}
+header nav li a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-lists img  {
+    height: 24px;
+}
+
+.brands-lists li {
+    display: inline;
+    margin-right: 15px;
+}
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0px;
+    color: var(--cor-primaria);
+
+}
+section h2 {
+    margin-bottom: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: normal;
+}
+section p {
+    margin-bottom: 8px;
+}
+.storefront {
+    margin-right: 32px;
+}
+footer {
+    padding: 16px 0px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+}
