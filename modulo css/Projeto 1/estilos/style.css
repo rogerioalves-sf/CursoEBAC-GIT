@@ -11,7 +11,7 @@
     --fonte-primaria: 'Bungee', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif; 
 }
-body {
+body, input, textarea {
     font-family: var(--fonte-secundaria);
 }
 
@@ -69,11 +69,59 @@ section h2 {
     font-family: var(--fonte-primaria);
     font-weight: normal;
 }
+section h3 {
+    font-family: var(--fonte-primaria);
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
 section p {
     margin-bottom: 8px;
 }
 .storefront {
     margin-right: 32px;
+}
+#contato .container {
+    display: block;
+}
+#contato .metodosdecontato {
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form textarea:focus {
+    outline-color: #293d72;
+}
+form button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: normal;
+    border: none;
+}
+form button:hover {
+    background-color:#3c5aad;
+    cursor: pointer;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links a {
+    text-decoration: none;
+}
+.social-links img {
+    height: 24px;
 }
 footer {
     padding: 16px 0px;
