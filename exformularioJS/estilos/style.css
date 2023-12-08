@@ -17,6 +17,30 @@ section {
 section #dados input {
     padding: 5px;
     margin-top: 10px;
+    width: 50px;
+}
+section #dados #erron1 {
+    border: 1px solid red;
+    width: 350px;
+    margin: auto;
+    background-color: red;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+section #dados #sucesso {
+    border: 1px solid greenyellow;
+    width: 350px;
+    margin: auto;
+    background-color: greenyellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+    
 }
 section #dados {
     padding-top: 30px;

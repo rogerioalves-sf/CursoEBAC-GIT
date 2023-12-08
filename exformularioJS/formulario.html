@@ -12,9 +12,20 @@
     </header>
     <section>
         <div id="dados">
-            Insira um número: <input type="number" name="txtn" id="txtn"> <br>
-            Insira um número: <input type="number" name="txtn2" id="txtn2"> <br>
-            <button type="submit">Enviar</button>
+            <form id="form">
+                
+                <label for="txtn">Insira o primeiro número:</label>
+                <input type="number" name="txtn" id="txtn"> <br>
+
+                <label for="txtn2">Insira o segundo número:</label>
+                <input type="number" name="txtn2" id="txtn2"> <br>
+                
+                <button type="submit">Enviar</button>
+
+                <p id="sucesso"> Seu formulário está correto e foi enviado !</p>
+                
+                <p id="erron1">Seu formulário não é válido, tente outro número</p>
+        </form>
 
         </div>
         <div>
