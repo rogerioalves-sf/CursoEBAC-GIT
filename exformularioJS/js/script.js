@@ -5,7 +5,7 @@ const form = document.querySelector("#form")
 
 form.addEventListener("submit",(event)=> {
     event.preventDefault();
-    if (nA.value > nB.value) {
+    if (nA.value >= nB.value) {
         erron1.style.display = "block";
         sucesso.style.display = "none";
         return;
