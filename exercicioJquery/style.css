@@ -2,14 +2,35 @@
 
 body {
     background-color: rgb(198, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
 }
-header {
+h1 {
     text-align: center;
 }
-section {
-    width: 600px;
+.container {
+    width: 400px;
     margin: auto;
     background-color: white;
     text-align: center;
+    border-radius: 10px;
 
+}
+input {
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+ul .checked { 
+    text-decoration: line-through;
 }
