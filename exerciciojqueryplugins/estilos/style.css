@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+section {
+    width: 500px;
+    background-color: aqua;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+section .dados {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section input {
+    margin: 10px 0px;
+    width: 200px;
+}
+
+section button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgb(121, 113, 103);
+}
